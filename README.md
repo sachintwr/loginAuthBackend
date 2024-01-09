@@ -13,8 +13,8 @@
 First, ensure you have node and mongo installed on your system.
 
 ```sh
-# clone it
-git clone git@github.com:kylealwyn/node-rest-api-boilerplate.git
+# clone it from
+ https://github.com/sachintwr/loginAuthBackend.git
 cd node-rest-api-boilerplate
 
 # Make it your own
@@ -48,6 +48,9 @@ Now we can access one of these variables with something like `process.env.MONGO_
 - **`npm run test:watch`** - Run test suite with auto-reloading
 - **`npm run coverage`** - Generate test coverage
 - **`npm run build`** - Generate production ready application in `./build`
+
+##
+login and sign up with authentication .
 
 ## Todo
 - [ ] Add OAuth Login Support (Facebook, Twitter, Google)
