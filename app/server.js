@@ -62,7 +62,9 @@ app.use(express.urlencoded({
 app.use(methodOverride());
 
 app.use(express.static(__dirname + '/public'));
-
+app.get('/', (req, res) => {
+  res.json("hello world");
+});
 // Mount API routes
 app.use(Constants.apiPrefix, routes);
 
