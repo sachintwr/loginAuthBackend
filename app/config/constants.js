@@ -27,7 +27,7 @@ const defaultConfig = {
    */
   mongo: {
     seed: true,
-    uri: process.env.MONGO_URI,// || 'mongodb://0.0.0.0:27017/test',
+    uri: process.env.MONGO_URI || 'mongodb://0.0.0.0:27017/test',
     options: {
       db: {
         safe: true,
