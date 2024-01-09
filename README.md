@@ -6,7 +6,7 @@
 - [x] ES6 for the latest & greatest javascript awesomeness
 - [x] [MongoDB](https://www.mongodb.com/) w/ [Mongoose](http://mongoosejs.com/) for data layer
 - [x] Testing via [Mocha](https://mochajs.org/) & [Chai](http://chaijs.com/)
-- [x] Test coverage via [Isparta](https://github.com/douglasduteil/isparta)
+- [x] Test coverage via [Isparta]( https://github.com/sachintwr/loginAuthBackend.git)
 - [x] Username/Email registration and authentication
 
 ## Getting Started
@@ -26,9 +26,7 @@ npm install
 # Run it
 npm start
 
-# Try it!
-curl -H "Content-Type: application/json" -X POST -d '{"username":"jamesdean", "email": "example@gmail.com", "password":"password1"}' http://localhost:4567/users
-```
+
 
 ## Environment Variables
 Place a `.env` file in the top level of the directory you've cloned. These variables will be automatically assigned to `process.env` when the application boots. It is gitignored by default as it's not good practice to store your environment variables in your remote repository.
@@ -57,7 +55,4 @@ login and sign up with authentication .
 - [ ] Add support for MySql or PostgreSQL (Possibly with sequelize)
 - [ ] Reset password functionality
 
-## License
-MIT
 
-sudo ln -s /etc/nginx/sites-available/oca.soccer /etc/nginx/sites-enabled/oca.soccer;
