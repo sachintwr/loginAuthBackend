@@ -63,7 +63,7 @@ app.use(methodOverride());
 
 app.use(express.static(__dirname + '/public'));
 app.get('/', (req, res) => {
-  res.json("hello world");
+  res.json("hello world there");
 });
 // Mount API routes
 app.use(Constants.apiPrefix, routes);
